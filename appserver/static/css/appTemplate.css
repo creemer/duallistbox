@@ -1,0 +1,9 @@
+.bootstrap-duallistbox-container {
+    padding: 20px; 
+}
+
+.box1, .box2 {
+    margin: 5px;
+    width: 48%;
+    display: inline-block;
+}

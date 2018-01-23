@@ -1,0 +1,6 @@
+
+    <% for (var i = 0; i < available_apps.length; i++) { %>
+        <% if(available_apps && available_apps.length > 0) {%>
+            <option value="<%- available_apps[i].name %>"><%- available_apps[i].name %></option>
+        <% }  
+    <% } %>

@@ -1,0 +1,30 @@
+<dashboard script="slideshow_setup.js">
+  <label>Setup a show</label>
+  <row>
+    <panel>
+      <html>
+  			<div id="slideshow_setup_screen" style="height:550px;">
+  			  
+  			  <form id="demoform" action="#" method="post">
+            
+            <select multiple="multiple" id="dualList" style="height: 350px" name="dual-list">
+            </select>
+            
+            <br/>
+            
+            <button type="submit" class="btn btn-default btn-block">Submit data</button>
+            
+          </form>
+          
+  			</div>
+  		</html>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <html>
+        <p>$dataContainer$</p>
+      </html>
+    </panel>
+  </row>
+</dashboard>
